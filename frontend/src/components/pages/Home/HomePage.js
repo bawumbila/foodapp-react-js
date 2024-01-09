@@ -9,6 +9,7 @@ import {
   getAllTags,
   search,
 } from "../../../services/foodService";
+import NotFound from "../../NotFound/NotFound";
 
 const initialState = { foods: [], tags: [] };
 
@@ -50,6 +51,7 @@ export default function HomePage() {
     <>
       <Search />
       <Tags tags={tags} forFoodPage={undefined} />
+      {foods.length === 0 && <NotFound linkText="Reset Search" />}
       <Thumbnails foods={foods} />
     </>
   );
