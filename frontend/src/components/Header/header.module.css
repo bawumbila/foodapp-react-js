@@ -1,7 +1,8 @@
 .header {
-  background: white;
+  background: rgb(198, 195, 195);
   padding: 0;
-  border-bottom: 1px solid #e72929;
+  border-bottom: 1px solid #080808;
+  border-radius: 0.3rem;
 }
 
 .header a {
@@ -10,7 +11,7 @@
 
 .header a:hover {
   background: #e72929;
-  color: white;
+  color: rgba(255, 255, 255, 0.781);
   cursor: pointer;
 }
 
@@ -21,6 +22,7 @@
 }
 
 .logo {
+  font-size: larger;
   font-weight: bold;
   padding: 1rem;
 }
@@ -33,6 +35,7 @@
 
 .header ul a {
   padding: 1rem;
+  border-left: 1px solid #e72929;
   display: inline-block;
 }
 

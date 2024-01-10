@@ -1,15 +1,15 @@
 import React, { useEffect, useReducer } from "react";
 import { useParams } from "react-router-dom";
-import Search from "../../Search/Search";
-import Tags from "../../Tags/Tags";
-import Thumbnails from "../../Thumbnails/Thumbnails";
+import Search from "../../components/Search/Search";
+import Tags from "../../components/Tags/Tags";
+import Thumbnails from "../../components/Thumbnails/Thumbnails";
 import {
   getAll,
   getAllByTag,
   getAllTags,
   search,
-} from "../../../services/foodService";
-import NotFound from "../../NotFound/NotFound";
+} from "../../services/foodService";
+import NotFound from "../../components/NotFound/NotFound";
 
 const initialState = { foods: [], tags: [] };
 
