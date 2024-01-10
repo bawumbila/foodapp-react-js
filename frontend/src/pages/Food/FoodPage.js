@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Price from "../../components/Price/Price";
@@ -29,7 +30,7 @@ export default function FoodPage() {
         <div className={classes.container}>
           <img
             className={classes.image}
-            src={`/foods/${food.imageUrl}`}
+            src={`${food.imageUrl}`}
             alt={food.name}
           />
 
