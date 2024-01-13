@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from "react";
-import AppRoutes from "../components/AppRoutes";
+import AppRoutes from "./AppRoutes";
 import Header from "../components/Header/Header";
 import Loading from "../components/Loading/Loading";
 import { useLoading } from "../hooks/useLoading";
