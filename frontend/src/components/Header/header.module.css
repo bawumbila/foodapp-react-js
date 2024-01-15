@@ -1,16 +1,16 @@
 .header {
-  background: rgb(198, 195, 195);
+  background: rgb(149, 173, 196);
   padding: 0;
   border-bottom: 1px solid #080808;
   border-radius: 0.3rem;
 }
 
 .header a {
-  color: #af1313;
+  color: #160858;
 }
 
 .header a:hover {
-  background: #e72929;
+  background: #12084e;
   color: rgba(255, 255, 255, 0.781);
   cursor: pointer;
 }
@@ -35,7 +35,7 @@
 
 .header ul a {
   padding: 1rem;
-  border-left: 1px solid #e72929;
+  border-left: 1px solid #050404;
   display: inline-block;
 }
 
