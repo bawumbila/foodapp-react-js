@@ -19,3 +19,8 @@ export const pay = async (paymentId) => {
     return data;
   } catch (error) {}
 };
+
+export const trackOrderById = async (orderId) => {
+  const { data } = await axios.get("/api/orders/track/" + orderId);
+  return data;
+};
