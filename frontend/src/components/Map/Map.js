@@ -46,6 +46,7 @@ function FindButtonAndMarker({ readonly, location, onChange }) {
       return;
     }
     if (position) onChange(position);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [position]);
 
   const map = useMapEvents({
