@@ -95,7 +95,7 @@ export const sample_foods = [
     favorite: false,
     origins: ["England"],
     stars: 2.0,
-    imageUrl: "food-6.jpg",
+    imageUrl: "food-9.jpg",
     tags: ["FastFood", "sandwich", "Lunch"],
   },
 ];
