@@ -1,12 +1,12 @@
 .header {
-  background: rgb(149, 173, 196);
+  background: rgb(130, 148, 191);
   padding: 0;
   border-bottom: 1px solid #080808;
   border-radius: 0.3rem;
 }
 
 .header a {
-  color: #160858;
+  color: #1b1818;
 }
 
 .header a:hover {
@@ -22,7 +22,9 @@
 }
 
 .logo {
-  font-size: larger;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-weight: bold;
   padding: 1rem;
 }
@@ -35,7 +37,7 @@
 
 .header ul a {
   padding: 1rem;
-  border-left: 1px solid #050404;
+  border-left: 1px solid #e72929;
   display: inline-block;
 }
 

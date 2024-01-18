@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import Search from "../../components/Search/Search";
 import Tags from "../../components/Tags/Tags";
 import Thumbnails from "../../components/Thumbnails/Thumbnails";
+import classes from "./homePage.module.css";
 import {
   getAll,
   getAllByTag,
@@ -49,10 +50,12 @@ export default function HomePage() {
 
   return (
     <>
-      <Search />
-      <Tags tags={tags} forFoodPage={undefined} />
-      {foods.length === 0 && <NotFound linkText="Reset Search" />}
-      <Thumbnails foods={foods} />
+      <div className={classes.container}>
+        <Search />
+        <Tags tags={tags} forFoodPage={undefined} />
+        {foods.length === 0 && <NotFound linkText="Reset Search" />}
+        <Thumbnails foods={foods} />
+      </div>
     </>
   );
 }
