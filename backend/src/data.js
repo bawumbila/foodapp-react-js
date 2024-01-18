@@ -56,7 +56,7 @@ export const sample_foods = [
   },
   {
     id: "6",
-    name: "Vegetables Pizza",
+    name: "Vegetarian Pizza",
     price: 9,
     cookTime: "40-50",
     favorite: false,
