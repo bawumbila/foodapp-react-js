@@ -1,12 +1,12 @@
 .header {
-  background: rgb(130, 148, 191);
+  background: rgb(91, 26, 204);
   padding: 0;
   border-bottom: 1px solid #080808;
   border-radius: 0.3rem;
 }
 
 .header a {
-  color: #1b1818;
+  color: #e1d8d8;
 }
 
 .header a:hover {
@@ -58,6 +58,7 @@
 
 .menu a {
   width: 100%;
+  color: rgb(12, 12, 12);
   min-width: 8rem;
 }
 

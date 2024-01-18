@@ -18,7 +18,7 @@ export default function Search() {
     <div className={classes.container}>
       <input
         type="text"
-        placeholder="Search Food Store !"
+        placeholder="Search Foods !"
         onChange={(e) => setTerm(e.target.value)}
         onKeyUp={(e) => e.key === "Enter" && search()}
         value={term}
