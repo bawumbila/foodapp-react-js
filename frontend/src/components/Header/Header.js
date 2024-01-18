@@ -13,7 +13,7 @@ export default function Header() {
     <header className={classes.header}>
       <div className={classes.container}>
         <Link to="/" className={classes.logo}>
-          Bawa's Food Store!
+          BAWA's FOOD STORE !
         </Link>
         <nav>
           <ul>
