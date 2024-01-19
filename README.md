@@ -14,11 +14,12 @@
 9. click find my location (required) and proceed to "Go to payment.
 10. Payment page allows for you to make payment via paypal which then brings you to your order summary page.
 
-##  Getting Started. 🏎💨 
+## Getting Started. 🏎💨
 
-[click here](https://bawafood.onrender.com/) to get started. 
+[click here](https://bawafood.onrender.com/) to get started.
 
-##  Technologies Used. ⚙️
+## Technologies Used. ⚙️
+
 - CSS
 - Express
 - MongoDB
@@ -29,17 +30,15 @@
 - Paypal API
 - Render for deployment.
 
-##  Screenshots. 📸    
+## Screenshots. 📸
 
-![Landing Page](.frontend/public/homepage.png)
+![Landing Page](./frontend/public/homepage.png)
 
-![Order page](./src/public/orderpage.png)
+![Order page](./frontend/public/orderpage.png)
 
 ![Selected food page](./frontend/public/foodpage.png)
 
-
-
-##  Future Enhancements. 🛠
+## Future Enhancements. 🛠
 
 - Minor UI tweeks.
 - Possible Animations.
