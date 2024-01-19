@@ -1,10 +1,13 @@
 {
+  "homepage": "http://bawumbila.github.io/foodapp-react-js",
   "name": "foodapp-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "cd backend && npm start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "prebuild": "cd backend && npm install & cd frontend && npm install",
     "build": "cd frontend && npm run build",
     "postbuild": "mv -f frontend/build backend/src/public"
@@ -14,5 +17,8 @@
   "license": "ISC",
   "engines": {
     "node": ">=18 <22"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
