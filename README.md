@@ -34,9 +34,9 @@
 
 ![Landing Page](./frontend/public/homepage.png)
 
-![Order page](./frontend/public/orderpage.png)
-
 ![Selected food page](./frontend/public/foodpage.png)
+
+![Order page](./frontend/public/orderpage.png)
 
 ## Future Enhancements. 🛠
 
