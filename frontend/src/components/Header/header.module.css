@@ -25,6 +25,8 @@
   font-size: xx-large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  inline-size: 150px;
+  overflow-wrap: break-word;
   font-weight: bold;
   padding: 1rem;
 }
