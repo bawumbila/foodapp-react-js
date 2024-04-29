@@ -90,7 +90,7 @@ export const sample_foods = [
   {
     id: "9",
     name: "Sandwich",
-    price: 5 - 10,
+    price: 5,
     cookTime: "5-10",
     favorite: false,
     origins: ["England"],
